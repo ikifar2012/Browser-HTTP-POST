@@ -1,0 +1,9 @@
+<script>
+    const http = new XMLHttpRequest();
+    const url='API_URL2';
+    http.open("POST", url);
+    http.send();
+    http.onreadystatechange=(e)=>{
+    console.log(http.responseText)
+    }
+</script>
